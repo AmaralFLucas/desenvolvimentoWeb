@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(27, 0, 63);
+    display: flex;
+    justify-content: center;
+}
+
+.card>p{
+    padding: 10px;
+    background-color: yellow;
+    width: 26px;
+    border-radius: 12px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+.card{
+    background-color: rgb(38, 0, 88);
+    font-family: sans-serif;
+    border: 2px none black;
+    width: 450px;
+    border-radius: 12px;
+}
+
+.main-card{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    color: white;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 12px 30px;
+    border: 2px solid aquamarine;
+    color: aqua;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(0, 217, 255);
+    border-radius: 50%;
+    background-image: url("https://source.unsplash.com/100x100/?user");
+}
+
+.footer-card{
+    background-color: rgb(13, 0, 31);
+    color: white;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 100px;
+}
+
+.footer-card>span{
+    border: 1px solid white;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    right: 10px;
+}
+
+.footer-card>p{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}

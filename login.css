@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to left, violet, blue);
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    background-color: white;
+    font-family: sans-serif;
+    border: 2px none black;
+    width: 500px;
+    height: 900px;
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.login>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.input>input{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.botao{
+    border-radius: 12px;
+    width: 400px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, violet, blue);
+    border: none;
+}
+
+.acess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 0px 15px 0px;
+}
+
+p{
+    text-align: center;
+}
+
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.signUp>button{
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+}
